@@ -1,0 +1,17 @@
+---
+title: My Document
+format: html
+jupyter: python3
+keep-ipynb: true
+---
+
+```{python}
+import os
+```
+
+Some more text.
+
+```{python}
+1 + 1
+```
+

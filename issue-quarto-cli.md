@@ -56,7 +56,8 @@ This is the starting point:
 
     Converted to input-document.ipynb
 
-The output `ipynb` is as expected, see [here]().
+The output `ipynb` is as expected, see
+[here](https://github.com/MartinSchobben/quarto-conversion/blob/main/input-document.ipynb).
 
 Here one can see that some text is missing when I now `convert` this
 back to a `qmd` file.

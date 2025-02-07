@@ -3,7 +3,8 @@
 
 I noticed that text disappeared when converting a Jupyter Notebook to a
 Quarto Notebook. It appears to only happen to text cells that occur
-before the first code cell.
+before the first code cell. Check source files in this [GitHub
+repo](https://github.com/MartinSchobben/quarto-conversion/tree/main).
 
 ``` python
 !quarto --version

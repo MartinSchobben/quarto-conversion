@@ -3,13 +3,17 @@ title: "Bug: conversion from ipynb to qmd removes first text cell(s)"
 format: gfm
 ---
 
-I noticed that text disappeared when converting a Jupyter Notebook to a Quarto Notebook. It appears to only happen to text cells that occur before the first code cell. Check source files in this [GitHub repo](https://github.com/MartinSchobben/quarto-conversion/tree/main).
+I noticed that text disappeared when converting a Jupyter Notebook to a Quarto Notebook. It appears to only happen to text cells that occur before the first code cell.
 
 ```{python}
 !quarto --version
 ```
 
-To showcase this I will convert an `qmd` file to an `ipynb` file and back again.
+```{python}
+!quarto check
+```
+
+To showcase this I will convert an `qmd` file to an `ipynb` file and back again. Check source files in this [GitHub repo](https://github.com/MartinSchobben/quarto-conversion/tree/main).
 
 This is the starting point:
 
